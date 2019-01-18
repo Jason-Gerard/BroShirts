@@ -1,16 +1,10 @@
-const restify = require('restify');
-const Sequelize = require('sequelize');
+const express = require('express');
+const bodyParser = require('body-parser');
 
 const config = require('./config');
 
 // setup postgres sequelize connection
-const sequelize = new Sequelize(config.db.database, config.db.user, config.db.password, config.db.options);
-
-// setup restify server
-const server = restify.createServer();
-
-// middleware
-server.use(restify.plugins.bodyParser());
+const sequelize = config.db;
 
 // verify db
 sequelize.authenticate()
@@ -21,6 +15,26 @@ sequelize.authenticate()
     console.log(`Unable to connect to db: ${err}`);
   })
 
-server.listen(config.port, () => {
+// set up express
+const app = express();
+
+// static folder middleware
+app.use('/public', express.static('public'));
+
+// body-parser middleware
+app.use(bodyParser.json());
+
+// routes
+app.use('/api/products', require('./routes/products'));
+
+// 404 errors
+app.use((req, res, next) => {
+  res.status(404).json({
+      error: '404 Page not found'
+  });
+})
+
+// opens port on 8000
+app.listen(config.port, () => {
   console.log(`Server started on port ${config.port}`);
 })

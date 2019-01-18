@@ -1,0 +1,100 @@
+[
+  {
+    "productName": "Mens t-shirt 1 black",
+    "description": "Good quality t-shirt",
+    "price": 19.99,
+    "productImage": "http://localhost:8000/public/products/men-shirt1-black.png",
+    "category": "men"
+  },
+  {
+    "productName": "Mens t-shirt 1 blue",
+    "description": "Good quality t-shirt",
+    "price": 19.99,
+    "productImage": "http://localhost:8000/public/products/men-shirt1-blue.png",
+    "category": "men"
+  },
+  {
+    "productName": "Mens t-shirt 1 white",
+    "description": "Good quality t-shirt",
+    "price": 19.99,
+    "productImage": "http://localhost:8000/public/products/men-shirt1-white.png",
+    "category": "men"
+  },
+  {
+    "productName": "Mens t-shirt 2 black",
+    "description": "Good quality t-shirt",
+    "price": 19.99,
+    "productImage": "http://localhost:8000/public/products/men-shirt1-black.png",
+    "category": "men"
+  },
+  {
+    "productName": "Mens t-shirt 2 blue",
+    "description": "Good quality t-shirt",
+    "price": 19.99,
+    "productImage": "http://localhost:8000/public/products/men-shirt1-blue.png",
+    "category": "men"
+  },
+  {
+    "productName": "Mens t-shirt 2 white",
+    "description": "Good quality t-shirt",
+    "price": 19.99,
+    "productImage": "http://localhost:8000/public/products/men-shirt1-white.png",
+    "category": "men"
+  },
+  {
+    "productName": "Womens t-shirt 1 black",
+    "description": "Good quality t-shirt",
+    "price": 19.99,
+    "productImage": "http://localhost:8000/public/products/women-shirt1-black.png",
+    "category": "women"
+  },
+  {
+    "productName": "Womens t-shirt 1 blue",
+    "description": "Good quality t-shirt",
+    "price": 19.99,
+    "productImage": "http://localhost:8000/public/products/women-shirt1-blue.png",
+    "category": "women"
+  },
+  {
+    "productName": "Womens t-shirt 1 pink",
+    "description": "Good quality t-shirt",
+    "price": 19.99,
+    "productImage": "http://localhost:8000/public/products/women-shirt1-pink.png",
+    "category": "women"
+  },
+  {
+    "productName": "Womens t-shirt 1 white",
+    "description": "Good quality t-shirt",
+    "price": 19.99,
+    "productImage": "http://localhost:8000/public/products/women-shirt1-white.png",
+    "category": "women"
+  },
+  {
+    "productName": "Womens t-shirt 2 black",
+    "description": "Good quality t-shirt",
+    "price": 19.99,
+    "productImage": "http://localhost:8000/public/products/women-shirt1-black.png",
+    "category": "women"
+  },
+  {
+    "productName": "Womens t-shirt 2 blue",
+    "description": "Good quality t-shirt",
+    "price": 19.99,
+    "productImage": "http://localhost:8000/public/products/women-shirt1-blue.png",
+    "category": "women"
+  },
+  {
+    "productName": "Womens t-shirt 2 pink",
+    "description": "Good quality t-shirt",
+    "price": 19.99,
+    "productImage": "http://localhost:8000/public/products/women-shirt1-pink.png",
+    "category": "women"
+  },
+  {
+    "productName": "Womens t-shirt 2 white",
+    "description": "Good quality t-shirt",
+    "price": 19.99,
+    "productImage": "http://localhost:8000/public/products/women-shirt1-white.png",
+    "category": "women"
+  }
+]
