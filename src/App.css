@@ -1,0 +1,59 @@
+.logo,
+.logo-link {
+  height: 100%
+}
+
+.logo {
+  padding: 5px;
+}
+
+.sidenav .active:after {
+  content: ' •';
+}
+
+.features {
+  display: flex;
+}
+
+.mens-feature,
+.womens-feature {
+  width: 50%;
+  position: relative;
+  text-align: center;
+}
+
+.mens-feature:hover .mens-feature-text,
+.womens-feature:hover .womens-feature-text {
+  color: #29b6f6;
+}
+
+.mens-feature-text,
+.womens-feature-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: #212121b6;
+  padding: 2px 8px 8px;
+}
+
+.mens-feature-img,
+.womens-feature-img {
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}

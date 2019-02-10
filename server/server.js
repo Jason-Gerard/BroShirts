@@ -9,7 +9,7 @@ const sequelize = config.db;
 // verify db
 sequelize.authenticate()
   .then(() => {
-    console.log('Databse connected');
+    console.log('Database connected');
   })
   .catch((err) => {
     console.log(`Unable to connect to db: ${err}`);
